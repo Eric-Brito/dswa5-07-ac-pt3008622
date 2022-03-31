@@ -21,7 +21,6 @@ angular.module('ifsp').controller('CursoController',
                     $scope.curso.$save()
                         .then(function() {
                             $scope.mensagem = { texto: 'Salvo com sucesso' };
-                            // Limpar o formulário
                             $scope.curso = new Curso();
                         })
                         .catch(function(erro) {
