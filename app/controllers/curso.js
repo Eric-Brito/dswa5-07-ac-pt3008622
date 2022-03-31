@@ -1,3 +1,5 @@
+var ID_CURSO_INC = 4;
+
 var cursos = [
     { _id: 1, curso: 'Engenharia de Produção', coordenador: 'fabio.teixeira@ifsp.edu.br' },
     { _id: 2, curso: 'Tecnologia em Análise e Desenvolvimento de Sistemas', coordenador: 'fabiano.teixeira@ifsp.edu.br' },
